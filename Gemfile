@@ -61,10 +61,11 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.1'
 
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3', '~> 1.4.2'
+  gem 'sqlite3'
 end
 
 group :production do
   # Use pg as the database for Active Record
-  # gem 'pg', '~> 1.2.3'
+  gem 'pg'
+  gem 'rails_12factor'
 end
